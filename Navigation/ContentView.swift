@@ -16,6 +16,9 @@ struct ContentView: View {
                     Text("Click me!")
                 NavigationLink(destination: About()) {
                     Text("About!")
+                    NavigationLink(destination: Contact()) {
+                        Text("Contact Us!")
+                    }
                     }
                 }
             }
@@ -25,7 +28,11 @@ struct ContentView: View {
             
             .navigationTitle("About")
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarHidden(true) 
+            .navigationBarHidden(true)
+            
+            .navigationTitle("Contact")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
     }
 }
