@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD19532C2E32A1D800A1B33B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19532B2E32A1D800A1B33B /* SecondView.swift */; };
+		BD19532E2E32A52F00A1B33B /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19532D2E32A52F00A1B33B /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		BD19530E2E329D9500A1B33B /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1953182E329D9500A1B33B /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD19532B2E32A1D800A1B33B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BD19532D2E32A52F00A1B33B /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		BD1952F82E329D9300A1B33B = {
 			isa = PBXGroup;
 			children = (
+				BD19532D2E32A52F00A1B33B /* About.swift */,
 				BD19532B2E32A1D800A1B33B /* SecondView.swift */,
 				BD1953032E329D9300A1B33B /* Navigation */,
 				BD1953112E329D9500A1B33B /* NavigationTests */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD19532C2E32A1D800A1B33B /* SecondView.swift in Sources */,
+				BD19532E2E32A52F00A1B33B /* About.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
